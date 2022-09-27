@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+}
+
+.cont{
+    background-color: hsl(30, 38%, 92%);
+    border-radius: 10px;
+    width: 600px;
+    height: 500px;
+    position: relative;
+    transform: translateY(10%);
+    margin: auto;
+}
+
+.image{
+    display: inline-block;
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    background-color: rgba(0, 255, 255, 0);
+    background-size: cover;
+}
+
+img{
+    width: 310px;
+    height: 500px;
+    background-size: cover;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.txt{
+    position: absolute;
+    width: 290px;
+    height: 500px;
+    right: 0;
+}
+
+.mostroa{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 30px 0px 0px 25px;
+    color: hsl(228, 12%, 48%);
+}
+
+h1{
+    color: hsl(212, 21%, 14%);
+    font-family: 'Fraunces', serif;
+    width: 200px;
+    margin: 26px;
+    line-height: 35px;
+}
+
+h2{
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    font-size: 2em;
+    margin: 25px 0px 0px 25px;
+}
+
+.principal{
+    font-size: 14px;
+    width: 230px;
+    margin: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    line-height: 25px;
+}
+
+span{
+    position: absolute;
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    padding-left: 14px;
+    top: 68.5%;
+}
+
+
+.compra{
+    background-color: hsl(159, 36%, 15%);
+    width: 230px;
+    height: 48px;
+    border-radius: 10px;
+    margin: 25px;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 35px;
+
+}
+
+div.compra > p{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 16px;
+    font-size: 15px;
+}
+
+img{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.car{
+    width: 15px;
+    height: 15px;
+}
+
+.compra:hover{
+    background-color: hsl(212, 21%, 14%);
+}
